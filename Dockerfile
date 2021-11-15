@@ -30,7 +30,7 @@ RUN pip3 install -r requirements.txt
 RUN dpkg-reconfigure locales
 COPY . /app
 
-RUN mkdir /BaxSharee
+RUN mkdir /BaxxShare
 WORKDIR /BaxxShare
 COPY bot.py /bot.py
 CMD ["python3", "bot.py"]
