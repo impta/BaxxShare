@@ -1,7 +1,4 @@
 import os
-
-cwd = os.getcwd()  # Get the current working directory (cwd)
-files = os.listdir(cwd)  # Get all the files in that directory
 import asyncio
 import traceback
 from binascii import Error
