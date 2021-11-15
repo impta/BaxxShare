@@ -1,14 +1,6 @@
 from pathlib import Path
 path_name = "bot.py"
-p = Path(path_name)
-if p.is_file():
-  print("File exists")
-  f = open(path_name)
-  #Execute other file operations here
-  f.close()
-   
-else:
-  print("File does not exist! IOError has occurd")
+
 FROM ubuntu:18.04
 
 ENV DEBIAN_FRONTEND=noninteractive
