@@ -1,4 +1,4 @@
-from pathlib import Path
+FROM pathlib import Path
 path_name = "bot.py"
 
 FROM ubuntu:18.04
