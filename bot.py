@@ -74,7 +74,7 @@ async def start(bot: Client, cmd: Message):
 
 
 @Bot.on_message((filters.document | filters.video | filters.audio) & ~filters.edited & ~filters.chat(Config.DB_CHANNEL))
-async def main(bot: Client, message: Message):
+async def __main__(bot: Client, message: Message):
 
     if message.chat.type == "private":
 
