@@ -1,6 +1,3 @@
-FROM pathlib import Path
-path_name = "bot.py"
-
 FROM ubuntu:18.04
 
 ENV DEBIAN_FRONTEND=noninteractive
