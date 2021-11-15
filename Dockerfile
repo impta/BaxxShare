@@ -8,9 +8,11 @@ RUN apt -qq install -y --no-install-recommends \
     curl \
     git \
     gnupg2 \
-    wget \
+    wget
+    -ex;
 
-RUN set apt-get update \
+RUN set
+   apt-get update \
     && apt-get install -y --no-install-recommends \
         busybox \
 	git \
