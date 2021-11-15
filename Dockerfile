@@ -10,8 +10,7 @@ RUN apt -qq install -y --no-install-recommends \
     gnupg2 \
     wget \
 
-RUN set -x; \
-    apt-get update \
+RUN set apt-get update \
     && apt-get install -y --no-install-recommends \
         busybox \
 	git \
