@@ -30,5 +30,5 @@ RUN pip3 install -r requirements.txt
 RUN dpkg-reconfigure locales
 COPY . /app
 
-IMPORT /github/BaxxShare/bot.py
+
 CMD ["python3", "bot.py"]
